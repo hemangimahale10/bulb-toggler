@@ -16,6 +16,27 @@
      border: #5c5c8a solid 5px;     
     }
 
+    .btn-container{
+     width: 650px;
+     height: 40px;
+     justify-content: space-around;
+     position: relative;
+     top: -100px;
+     right: -500px; 
+}
+
+    .btn{
+     margin-left: 30px;
+     border: none;
+     height: 30px;
+     width: 80px;
+     border: #004080 solid 2px;
+     border-radius: 50px;
+     cursor: pointer;
+     margin-left: 70px;
+}
+
+
 </style>
     
 <body>
@@ -23,5 +44,13 @@
         <h1 id="header">Summer</h1>
         <img src="https://cdn-icons-png.flaticon.com/128/8371/8371745.png" alt="sun" id="sun"> <br>   
     </div>
+
+    <div class="btn-container" id="btn-container">
+
+        <button type="button" class="btn" id="summer" onclick="summer()">Summer</button>
+        <button type="button" class="btn" id="winter" onclick="winter()">Winter</button>
+        <button type="button" class="btn" id="mansoon" onclick="mansoon()">Mansoon</button>   
+    </div>
+   
 </body>
 </html>
