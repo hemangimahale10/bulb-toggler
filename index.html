@@ -91,6 +91,17 @@
         <button type="button" class="btn" id="winter" onclick="winter()">Winter</button>
         <button type="button" class="btn" id="mansoon" onclick="mansoon()">Mansoon</button>   
     </div>
-   
+
+    <script>
+        function summer() {
+           const imgElement = document.getElementById('sun');
+           const headerElement = document.getElementById('header');
+           const containerElement = document.getElementById('container')
+           imgElement.src = "https://cdn-icons-png.flaticon.com/128/8371/8371745.png";
+           headerElement.innerText = 'Summer'
+           containerElement.style.backgroundColor = ' #ffff80';
+        }
+
+    </script>
 </body>
 </html>
